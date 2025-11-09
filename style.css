@@ -1,0 +1,40 @@
+:root {
+	--secondary-color:#192233;
+	--primary-color:#5394c4;
+}
+@font-face {
+	font-family:Jost;
+	src: url(Fonts/Jost-VariableFont_wght.ttf);
+}
+body {
+	overflow-x: hidden;
+	margin:0;
+	font-family:Jost;
+}
+.navbar {
+	background-color:var(--secondary-color);
+	color:white;
+	font-size:25px;
+}
+.navbar-img {
+	width:60px;
+	height:auto;
+}
+h1 {
+	display:flex
+}
+.content {
+	margin:20px;
+}
+footer {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: var(--secondary-color);
+	color: white;
+	text-align: center;
+}
+/*
+* {
+    outline: 1px solid red;
+}
+*/
